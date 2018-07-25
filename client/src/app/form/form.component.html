@@ -1,0 +1,12 @@
+<br/>
+<b>Preview</b>
+<p>Name: {{ info.name }}</p>
+<p>Age: {{ info.job }}</p>
+<br/>
+<div>
+  <label>Name:</label>
+  <input [(ngModel)]="info.name" type="text" />
+  <label>Age:</label>
+  <input [(ngModel)]="info.job" type="text" />
+  <button (click)="registerUser()">Submit</button>
+</div>
